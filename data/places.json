@@ -1,14 +1,16 @@
 [
   {
-    "name": "Joe's Pizza NYC",
-    "lat": 40.73061,
-    "lng": -73.935242,
-    "reel": "https://www.instagram.com/reel/XYZ123/"
+    "name": "A THOUSAND TALES",
+    "igProfile": "https://www.instagram.com/a.thousandtales/",
+    "reel": "https://www.instagram.com/p/DJM3SnlAREh/",
+    "lat": 42.0236711,
+    "lng": -87.9417828
   },
   {
-    "name": "Ramen Ichiran Tokyo",
-    "lat": 35.689487,
-    "lng": 139.691711,
-    "reel": "https://www.instagram.com/reel/ABC456/"
+    "name": "palooza.pizza",
+    "igProfile": "https://www.instagram.com/palooza.pizza/",
+    "reel": "https://www.instagram.com/p/DIzxWTtsB9x/",
+    "lat": 42.0015734,
+    "lng": -88.1239717
   }
 ]
