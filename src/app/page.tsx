@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <>
       <main>
-        <PinReelMap places={places} />
+        <PinReelMap places={places}/>
       </main>
     </>
-  );
+);
 }

@@ -44,7 +44,7 @@ export default function PinReelMap({places}: Props) {
   };
 
   useEffect(() => {
-    locateMe(); // automatically center on first load
+    locateMe();
   }, []);
 
   return (
