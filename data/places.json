@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Joe's Pizza NYC",
+    "lat": 40.73061,
+    "lng": -73.935242,
+    "reel": "https://www.instagram.com/reel/XYZ123/"
+  },
+  {
+    "name": "Ramen Ichiran Tokyo",
+    "lat": 35.689487,
+    "lng": 139.691711,
+    "reel": "https://www.instagram.com/reel/ABC456/"
+  }
+]
