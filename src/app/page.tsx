@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <>
       <main>
-        <h1>📍 Food Places from Instagram Reels</h1>
         <PinReelMap places={places} />
       </main>
     </>
