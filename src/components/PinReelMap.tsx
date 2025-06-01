@@ -52,7 +52,7 @@ export default function PinReelMap({places}: Props) {
       <div className="w-2/3 h-[100vh]">
         <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!}>
           <GoogleMap
-            mapContainerStyle={{ width: '100%', height: '100%' }}
+            mapContainerStyle={{width: '100%', height: '100%'}}
             center={userLocation || defaultCenter}
             zoom={userLocation ? 6.5 : 2}
             onLoad={handleLoad}
@@ -60,13 +60,13 @@ export default function PinReelMap({places}: Props) {
             {places.map((place, index) => (
               <Marker
                 key={index}
-                position={{ lat: place.lat, lng: place.lng }}
+                position={{lat: place.lat, lng: place.lng}}
                 onClick={() => setSelected(place)}
               />
             ))}
             {selected && (
               <InfoWindow
-                position={{ lat: selected.lat, lng: selected.lng }}
+                position={{lat: selected.lat, lng: selected.lng}}
                 onCloseClick={() => setSelected(null)}
               >
                 <div>
@@ -104,7 +104,8 @@ export default function PinReelMap({places}: Props) {
         <h2 className="text-lg font-semibold mb-4">Saved Places</h2>
         <ul className="space-y-3">
           {places.map((place, index) => (
-            <li key={index} className="border p-3 rounded hover:bg-gray-50 cursor-pointer" onClick={() => setSelected(place)}>
+            <li key={index} className="border p-3 rounded hover:bg-gray-50 cursor-pointer"
+                onClick={() => setSelected(place)}>
               <div className="font-medium">{place.name}</div>
               <div className="text-sm text-gray-600">{place.reels.length} reels</div>
             </li>
