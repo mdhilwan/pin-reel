@@ -1,3 +1,5 @@
+"use client"
+
 import {GoogleMap, LoadScript, Marker, InfoWindow} from '@react-google-maps/api';
 import {useEffect, useRef, useState} from 'react';
 
@@ -5,7 +7,7 @@ type Place = {
   name: string;
   lat: number;
   lng: number;
-  reel: string;
+  reels: string[];
 };
 
 type Props = {
@@ -17,9 +19,9 @@ const containerStyle = {
   height: '80vh'
 };
 
-const defaultCenter = { lat: 20, lng: 0 };
+const defaultCenter = {lat: 20, lng: 0};
 
-export default function Map({places}: Props) {
+export default function PinReelMap({places}: Props) {
   const [selected, setSelected] = useState<Place | null>(null);
   const [userLocation, setUserLocation] = useState<null | { lat: number; lng: number }>(null);
   const mapRef = useRef<google.maps.Map | null>(null);
@@ -73,9 +75,15 @@ export default function Map({places}: Props) {
             >
               <div>
                 <h4>{selected.name}</h4>
-                <a href={selected.reel} target="_blank" rel="noopener noreferrer">
-                  View Reel
-                </a>
+                <ul>
+                  {selected.reels.map((reel: string, index: number) =>
+                    <li>
+                      <a href={reel} target="_blank" rel="noopener noreferrer">
+                        View Reel {index + 1}
+                      </a>
+                    </li>
+                  )}
+                </ul>
               </div>
             </InfoWindow>
           )}
