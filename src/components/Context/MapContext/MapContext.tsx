@@ -8,6 +8,7 @@ type Place = {
   lat: number;
   lng: number;
   distance?: number;
+  images: string[]
   reels: string[];
 };
 
