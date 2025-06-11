@@ -127,12 +127,19 @@ export default function PinReelMap() {
           )}
         </GoogleMap>
       </LoadScript>
-      <button
-        onClick={locateMe}
-        className="absolute bottom-2 left-2 bg-white px-3 py-2 border border-gray-300 rounded z-50"
-      >
-        📍 Locate Me
-      </button>
+      <div className={"absolute bottom-2 left-2 z-50"}>
+        <button
+          onClick={locateMe}
+          className="bg-white px-3 py-2 border border-gray-300 rounded cursor-pointer"
+        >
+          📍 Locate Me
+        </button>
+        <button
+          className="bg-white px-3 py-2 ms-2 border border-gray-300 rounded cursor-pointer md:hidden"
+        >
+          🗺️ View Map
+        </button>
+      </div>
     </div>
   );
 }
