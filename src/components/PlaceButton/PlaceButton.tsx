@@ -1,19 +1,20 @@
 'use client';
 
+import React from "react";
 import useMapContext from "@/components/Context/MapContext";
+import {Place} from "@/types/place";
 
-type Place = {
-  name: string;
-  lat: number;
-  lng: number;
-  reels: string[];
-};
+interface PlaceButtonProps {
+  place: Place;
+  children: React.ReactNode;
+}
 
-export default function PlaceButton({place}: { place: Place}) {
+export default function PlaceButton({children, place}: PlaceButtonProps) {
   const { setFocusedPlace } = useMapContext();
 
-  return <button onClick={() => setFocusedPlace(place)} className="text-left w-full cursor-pointer">
-    <div className="font-medium">{place.name}</div>
-    <div className="text-sm text-gray-600">{place.reels.length} reels</div>
+  return <button
+    onClick={() => setFocusedPlace(place)}
+    className="text-left w-full cursor-pointer">
+    {children}
   </button>
 }

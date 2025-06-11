@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.swiper {
+    .swiper-button-prev, .swiper-button-next {
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+
+        &:after {
+            font-size: 10px;
+        }
+    }
+}

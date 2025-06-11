@@ -3,15 +3,7 @@
 import {GoogleMap, LoadScript, Marker, InfoWindow} from '@react-google-maps/api';
 import {useEffect, useRef, useState} from 'react';
 import useMapContext from "@/components/Context/MapContext";
-import PlaceButton from "@/components/PlaceButton";
-
-type Place = {
-  name: string;
-  lat: number;
-  lng: number;
-  reels: string[];
-  distance?: number;
-};
+import {Place} from "@/types/place";
 
 const defaultCenter = {lat: 20, lng: 0};
 
@@ -91,7 +83,7 @@ export default function PinReelMap() {
   }, []);
 
   return (
-    <div className="w-2/3 h-[100vh]">
+    <div className="w-0 md:w-1/2 h-[100vh]">
       <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!}>
         <GoogleMap
           mapContainerStyle={{width: '100%', height: '100%'}}

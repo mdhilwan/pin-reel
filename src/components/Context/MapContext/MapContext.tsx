@@ -2,19 +2,11 @@
 
 import places from '@/data/places.json';
 import {createContext, useContext, useState} from 'react';
-
-type Place = {
-  name: string;
-  lat: number;
-  lng: number;
-  distance?: number;
-  images: string[]
-  reels: string[];
-};
+import {Place} from "@/types/place";
 
 const MapContext = createContext<{
   focusedPlace: Place | null;
-  setFocusedPlace: (place: Place | null) => void;
+  setFocusedPlace: (place: Place | null | undefined) => void;
   placesData: Place[];
   setPlacesData: (places: Place[]) => void;
 }>({
