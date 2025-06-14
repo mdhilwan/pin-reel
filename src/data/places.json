@@ -101,36 +101,36 @@
     "name": "Bayt Al Mocha",
     "igProfile": "https://www.instagram.com/bayt_almocha/",
     "reels": [
-      "https://www.instagram.com/p/DEWIQEKxFpG/"
+      "https://www.instagram.com/reel/DKagTVVB2k1/"
     ],
     "lat": 42.304735,
     "lng": -83.248274,
     "images": [
-      "/images/472092603_2638857046503967_5037929273613093420_n.jpg"
+      "/images/503311335_1080412904012785_8401489422673245029_n.jpg"
     ]
   },
   {
     "name": "Rose Cafe",
     "igProfile": "https://www.instagram.com/rosecafedetroit/",
     "reels": [
-      "https://www.instagram.com/p/DEWIQEKxFpG/"
+      "https://www.instagram.com/p/DEWIQEKxFpG/", "https://www.instagram.com/reel/DG4kWXsNH2O/"
     ],
     "lat": 42.319517,
     "lng": -83.281564,
     "images": [
-      "/images/472092603_2638857046503967_5037929273613093420_n.jpg"
+      "/images/483206715_18378519364190627_4403634756439838119_n.jpg"
     ]
   },
   {
     "name": "Jabal Coffee House",
     "igProfile": "https://www.instagram.com/jabalcoffeehouse/",
     "reels": [
-      "https://www.instagram.com/p/DEWIQEKxFpG/"
+      "https://www.instagram.com/reel/DGYOomNuAAI/"
     ],
     "lat": 42.303913,
     "lng": -83.250631,
     "images": [
-      "/images/472092603_2638857046503967_5037929273613093420_n.jpg"
+      "/images/480949301_1534230977256312_131629152220160263_n.jpg"
     ]
   },
   {
@@ -161,48 +161,48 @@
     "name": "Mokaccino Cafe",
     "igProfile": "https://www.instagram.com/mokaccinocafe_us/",
     "reels": [
-      "https://www.instagram.com/p/DEWIQEKxFpG/"
+      "https://www.instagram.com/reel/DDafBiOSKdq/"
     ],
     "lat": 42.304671,
     "lng": -83.175984,
     "images": [
-      "/images/472092603_2638857046503967_5037929273613093420_n.jpg"
+      "/images/469907655_17986121486771637_5704622264939599753_n.jpg"
     ]
   },
   {
     "name": "Qamaria Coffee",
     "igProfile": "https://www.instagram.com/qamariacoffee/",
     "reels": [
-      "https://www.instagram.com/p/DEWIQEKxFpG/"
+      "https://www.instagram.com/reel/CpNmbsouv4_/","https://www.instagram.com/p/DEWIQEKxFpG/"
     ],
     "lat": 42.328216,
     "lng": -83.287278,
     "images": [
-      "/images/472092603_2638857046503967_5037929273613093420_n.jpg"
+      "/images/491437498_544630168335830_4067363530148652572_n.jpg"
     ]
   },
   {
     "name": "Misk Coffee Break",
     "igProfile": "https://www.instagram.com/miskcoffeebreak/",
     "reels": [
-      "https://www.instagram.com/p/DEWIQEKxFpG/"
+      "https://www.instagram.com/reel/DICPhbcxM_o/"
     ],
     "lat": 42.304671,
     "lng": -83.175984,
     "images": [
-      "/images/472092603_2638857046503967_5037929273613093420_n.jpg"
+      "/images/488594102_17906194167132076_1511222711489751204_n.jpg"
     ]
   },
   {
     "name": "Haraz Coffee House",
     "igProfile": "https://www.instagram.com/harazcoffeehouse/",
     "reels": [
-      "https://www.instagram.com/p/DEWIQEKxFpG/"
+      "https://www.instagram.com/reel/DKxk1FRyz0K/"
     ],
     "lat": 42.304671,
     "lng": -83.175984,
     "images": [
-      "/images/472092603_2638857046503967_5037929273613093420_n.jpg"
+      "/images/506305329_18390577105190627_506897397062402861_n.jpg"
     ]
   },
   {
@@ -287,6 +287,30 @@
     "lng": -88.0841031,
     "images": [
       "/images/f0509986-dfbc-4c24-b1f1-5a2c17e01c62.jpg"
+    ]
+  },
+  {
+    "name": "Mochinut Troy",
+    "igProfile": "https://www.instagram.com/mochinut_troy/",
+    "reels": [
+      "https://www.instagram.com/p/DCZqbZTxoC3/"
+    ],
+    "lat": 42.5371068,
+    "lng": -83.104176,
+    "images": [
+      "/images/76f0a843-0ac8-480c-beca-a59d2497b964.jpg"
+    ]
+  },
+  {
+    "name": "SALT burgers + fries",
+    "igProfile": "https://www.instagram.com/saltchicago/",
+    "reels": [
+      "https://www.instagram.com/p/DI2VKFmvo7U/"
+    ],
+    "lat": 41.9106501,
+    "lng": -87.6759823,
+    "images": [
+      "/images/6c6f8235-8523-46f7-99a2-7b110673ecc9.jpg"
     ]
   }
 ]
