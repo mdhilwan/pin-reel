@@ -276,5 +276,17 @@
     "images": [
       "/images/472293988_18370433128190627_3191427803176660078_n.jpg"
     ]
+  },
+  {
+    "name": "Love Me Mochi",
+    "igProfile": "https://www.instagram.com/loveme_mochi/",
+    "reels": [
+      "https://www.instagram.com/p/DDPWICjuc83/"
+    ],
+    "lat": 42.0478082,
+    "lng": -88.0841031,
+    "images": [
+      "/images/f0509986-dfbc-4c24-b1f1-5a2c17e01c62.jpg"
+    ]
   }
 ]
