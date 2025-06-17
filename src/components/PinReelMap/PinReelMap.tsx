@@ -27,7 +27,7 @@ export default function PinReelMap() {
 
       mapRef.current?.moveCamera({
         center: coords,
-        zoom: 8
+        zoom: 16
       })
     }
   }, [focusedPlace]);
@@ -88,7 +88,7 @@ export default function PinReelMap() {
         <GoogleMap
           mapContainerStyle={{width: '100%', height: '100%'}}
           center={location || userLocation || defaultCenter}
-          zoom={userLocation ? 6.5 : 2}
+          zoom={userLocation ? 12 : 2}
           onLoad={handleLoad}
         >
           {placesData.map((place, index) => (
