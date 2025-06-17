@@ -113,7 +113,8 @@
     "name": "Rose Cafe",
     "igProfile": "https://www.instagram.com/rosecafedetroit/",
     "reels": [
-      "https://www.instagram.com/p/DEWIQEKxFpG/", "https://www.instagram.com/reel/DG4kWXsNH2O/"
+      "https://www.instagram.com/p/DEWIQEKxFpG/",
+      "https://www.instagram.com/reel/DG4kWXsNH2O/"
     ],
     "lat": 42.319517,
     "lng": -83.281564,
@@ -134,30 +135,6 @@
     ]
   },
   {
-    "name": "Azal Coffee",
-    "igProfile": "https://www.instagram.com/azal.coffee/",
-    "reels": [
-      "https://www.instagram.com/p/DEWIQEKxFpG/"
-    ],
-    "lat": 42.344183,
-    "lng": -83.178365,
-    "images": [
-      "/images/472092603_2638857046503967_5037929273613093420_n.jpg"
-    ]
-  },
-  {
-    "name": "Shibam Coffee",
-    "igProfile": "https://www.instagram.com/shibamcoffee/",
-    "reels": [
-      "https://www.instagram.com/p/DEWIQEKxFpG/"
-    ],
-    "lat": 42.334887,
-    "lng": -83.175993,
-    "images": [
-      "/images/472092603_2638857046503967_5037929273613093420_n.jpg"
-    ]
-  },
-  {
     "name": "Mokaccino Cafe",
     "igProfile": "https://www.instagram.com/mokaccinocafe_us/",
     "reels": [
@@ -173,7 +150,8 @@
     "name": "Qamaria Coffee",
     "igProfile": "https://www.instagram.com/qamariacoffee/",
     "reels": [
-      "https://www.instagram.com/reel/CpNmbsouv4_/","https://www.instagram.com/p/DEWIQEKxFpG/"
+      "https://www.instagram.com/reel/CpNmbsouv4_/",
+      "https://www.instagram.com/p/DEWIQEKxFpG/"
     ],
     "lat": 42.328216,
     "lng": -83.287278,
@@ -203,78 +181,6 @@
     "lng": -83.175984,
     "images": [
       "/images/506305329_18390577105190627_506897397062402861_n.jpg"
-    ]
-  },
-  {
-    "name": "Qahwah House",
-    "igProfile": "https://www.instagram.com/qahwah_house/",
-    "reels": [
-      "https://www.instagram.com/p/DEWIQEKxFpG/"
-    ],
-    "lat": 42.334887,
-    "lng": -83.175993,
-    "images": [
-      "/images/472092603_2638857046503967_5037929273613093420_n.jpg"
-    ]
-  },
-  {
-    "name": "Sexy Steak",
-    "igProfile": "https://www.instagram.com/sexysteak/",
-    "reels": [
-      "https://www.instagram.com/p/DEVPs_eRGG6/"
-    ],
-    "lat": 42.33502,
-    "lng": -83.05498,
-    "images": [
-      "/images/472293988_18370433128190627_3191427803176660078_n.jpg"
-    ]
-  },
-  {
-    "name": "Adelina",
-    "igProfile": "https://www.instagram.com/adelinadetroit/",
-    "reels": [
-      "https://www.instagram.com/p/DEVPs_eRGG6/"
-    ],
-    "lat": 42.33264,
-    "lng": -83.04739,
-    "images": [
-      "/images/472293988_18370433128190627_3191427803176660078_n.jpg"
-    ]
-  },
-  {
-    "name": "Vecino",
-    "igProfile": "https://www.instagram.com/vecinodetroit/",
-    "reels": [
-      "https://www.instagram.com/p/DEVPs_eRGG6/"
-    ],
-    "lat": 42.3468,
-    "lng": -83.0684,
-    "images": [
-      "/images/472293988_18370433128190627_3191427803176660078_n.jpg"
-    ]
-  },
-  {
-    "name": "Leña",
-    "igProfile": "https://www.instagram.com/lenadetroit/",
-    "reels": [
-      "https://www.instagram.com/p/DEVPs_eRGG6/"
-    ],
-    "lat": 42.3398,
-    "lng": -83.0455,
-    "images": [
-      "/images/472293988_18370433128190627_3191427803176660078_n.jpg"
-    ]
-  },
-  {
-    "name": "Zuzu",
-    "igProfile": "https://www.instagram.com/experiencezuzu/",
-    "reels": [
-      "https://www.instagram.com/p/DEVPs_eRGG6/"
-    ],
-    "lat": 42.3295,
-    "lng": -83.0461,
-    "images": [
-      "/images/472293988_18370433128190627_3191427803176660078_n.jpg"
     ]
   },
   {
@@ -311,6 +217,174 @@
     "lng": -87.6759823,
     "images": [
       "/images/6c6f8235-8523-46f7-99a2-7b110673ecc9.jpg"
+    ]
+  },
+  {
+    "name": "Shibam Coffee",
+    "igProfile": "https://www.instagram.com/shibamcoffee/",
+    "reels": [
+      "https://www.instagram.com/reel/DK2j8JXSWxw/"
+    ],
+    "lat": 42.3280482,
+    "lng": -83.1763624,
+    "images": [
+      "/images/3a45f964-09e5-4b45-a8bc-4c499bfc1027.jpg"
+    ]
+  },
+  {
+    "name": "Qahwah House",
+    "igProfile": "https://www.instagram.com/qahwah_house/",
+    "reels": [
+      "https://www.instagram.com/reel/DJj_ULYx92b/"
+    ],
+    "lat": 42.3401343,
+    "lng": -83.1769376,
+    "images": [
+      "/images/635f304b-e983-4981-abea-1cba4c09e830.jpg"
+    ]
+  },
+  {
+    "name": "Azal Coffee",
+    "igProfile": "https://www.instagram.com/azal.coffee/",
+    "reels": [
+      "https://www.instagram.com/reel/DJoudKQtXWW/"
+    ],
+    "lat": 42.3440471,
+    "lng": -83.1912456,
+    "images": [
+      "/images/f97e971c-6bad-4dd6-8a1e-c2b59f4a9459.jpg"
+    ]
+  },
+  {
+    "name": "Vecino Detroit",
+    "igProfile": "https://www.instagram.com/vecinodetroit/",
+    "reels": [
+      "https://www.instagram.com/reel/DC2dTwFPM_a/"
+    ],
+    "lat": 42.34832979999999,
+    "lng": -83.06736649999999,
+    "images": [
+      "/images/827b565b-c114-4071-8947-ba1db443445e.jpg"
+    ]
+  },
+  {
+    "name": "Sexy Steak",
+    "igProfile": "https://www.instagram.com/sexysteak/",
+    "reels": [
+      "https://www.instagram.com/reel/DAbtLBHRg9X/"
+    ],
+    "lat": 42.33503470000001,
+    "lng": -83.054965,
+    "images": [
+      "/images/fb65551c-3867-41aa-9804-c06dea49c61a.jpg"
+    ]
+  },
+  {
+    "name": "Zuzu",
+    "igProfile": "https://www.instagram.com/experiencezuzu/",
+    "reels": [
+      "https://www.instagram.com/reel/DHcAD0PujaY/"
+    ],
+    "lat": 42.3296617,
+    "lng": -83.0461273,
+    "images": [
+      "/images/19fdf298-5d25-4d4b-98a2-69c98b58088b.jpg"
+    ]
+  },
+  {
+    "name": "Adelina",
+    "igProfile": "https://www.instagram.com/adelinadetroit/",
+    "reels": [
+      "https://www.instagram.com/reel/DADp83Uv_6Z/"
+    ],
+    "lat": 42.3328093,
+    "lng": -83.04743649999999,
+    "images": [
+      "/images/e10d01ff-9869-49dc-92cb-56e1ac0525d1.jpg"
+    ]
+  },
+  {
+    "name": "Leña",
+    "igProfile": "https://www.instagram.com/lenadetroit/",
+    "reels": [
+      "https://www.instagram.com/reel/DIGtLnKuSNx/"
+    ],
+    "lat": 42.34478590000001,
+    "lng": -83.0503627,
+    "images": [
+      "/images/4285114f-6b4b-457a-8f5c-11bbc76ae5a6.jpg"
+    ]
+  },
+  {
+    "name": "Mizan Halal",
+    "igProfile": "https://www.instagram.com/mizan.halal.pizza/reels/",
+    "reels": [
+      "https://www.instagram.com/reel/DK7TZfDMKej/"
+    ],
+    "lat": 38.5932114,
+    "lng": -90.5688943,
+    "images": [
+      "/images/92141be6-89b8-43c4-b362-aaa1ba109986.jpg"
+    ]
+  },
+  {
+    "name": "Golden Chicken St Peters",
+    "igProfile": "https://www.instagram.com/goldenchicken_st.peters/",
+    "reels": [
+      "https://www.instagram.com/reel/DKab3nZu8gx/"
+    ],
+    "lat": 38.7778664,
+    "lng": -90.5797721,
+    "images": [
+      "/images/da7f23c0-caec-4c16-a0a8-78dfd15b150b.jpg"
+    ]
+  },
+  {
+    "name": "Kasabi Japanese Steakhouse",
+    "igProfile": "https://www.instagram.com/kasabi_japanese_steakhouse/reels/",
+    "reels": [
+      "https://www.instagram.com/reel/DGUMqvfMmlZ/"
+    ],
+    "lat": 38.7932626,
+    "lng": -90.620509,
+    "images": [
+      "/images/b7c8e1bf-4f55-43b7-8bc2-5999774ffdbf.jpg"
+    ]
+  },
+  {
+    "name": "Magoo's California Pizza",
+    "igProfile": "https://www.instagram.com/magooscalpizza/",
+    "reels": [
+      "https://www.instagram.com/reel/DGo5Pm3s_wC/"
+    ],
+    "lat": 39.764183,
+    "lng": -86.335339,
+    "images": [
+      "/images/268adc28-547b-40ae-b14e-314cbf3b3156.jpg"
+    ]
+  },
+  {
+    "name": "Pizzatwist Tacotwist STL",
+    "igProfile": "https://www.instagram.com/pizzatwist_tacotwist_stl/",
+    "reels": [
+      "https://www.instagram.com/p/DIO0tYHuvqv/"
+    ],
+    "lat": 38.64099179999999,
+    "lng": -90.2621966,
+    "images": [
+      "/images/c1cb70fc-bf8a-4f94-8c7b-71f191f58eb3.jpg"
+    ]
+  },
+  {
+    "name": "Port of Peri Peri",
+    "igProfile": "https://www.instagram.com/portofballwin/reels/",
+    "reels": [
+      "https://www.instagram.com/reel/DKi-0ShsVme/"
+    ],
+    "lat": 38.5981324,
+    "lng": -90.4879206,
+    "images": [
+      "/images/06ddd26b-cb9c-45a4-8450-b56d5086db3a.jpg"
     ]
   }
 ]
