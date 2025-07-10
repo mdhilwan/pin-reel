@@ -7,7 +7,7 @@ const PlacesList = dynamic(() => import('@/components/PlacesList'));
 export default function Home() {
   return (
     <>
-      <main className="relative flex">
+      <main className="relative flex h-[calc(100dvh-74px)]">
         <MapProvider>
           <PinReelMap/>
           <PlacesList/>
