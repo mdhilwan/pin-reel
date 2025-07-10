@@ -83,7 +83,7 @@ export default function PinReelMap() {
   }, []);
 
   return (
-    <div className="w-full md:w-1/2 h-[100vh] h-screen">
+    <div className="w-full md:w-1/2 h-[calc(100dvh-74px)]">
       <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!}>
         <GoogleMap
           mapContainerStyle={{width: '100%', height: '100%'}}
