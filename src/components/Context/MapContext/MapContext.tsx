@@ -5,7 +5,7 @@ import {createContext, useContext, useState} from 'react';
 import {Place} from "@/types/place";
 
 const MapContext = createContext<{
-  focusedPlace: Place | null;
+  focusedPlace: Place | null | undefined;
   setFocusedPlace: (place: Place | null | undefined) => void;
   placesData: Place[];
   setPlacesData: (places: Place[]) => void;
@@ -17,7 +17,7 @@ const MapContext = createContext<{
 });
 
 export const MapProvider = ({children}: { children: React.ReactNode }) => {
-  const [focusedPlace, setFocusedPlace] = useState<Place | null>(null);
+  const [focusedPlace, setFocusedPlace] = useState<Place | null | undefined>(null);
   const [placesData, setPlacesData] = useState<Place[]>(places);
 
   return (

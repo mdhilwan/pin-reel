@@ -83,7 +83,7 @@ export default function PinReelMap() {
   }, []);
 
   return (
-    <div className="w-0 md:w-1/2 h-[100vh]">
+    <div className="w-full md:w-1/2 h-[100vh]">
       <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!}>
         <GoogleMap
           mapContainerStyle={{width: '100%', height: '100%'}}
@@ -95,7 +95,10 @@ export default function PinReelMap() {
             <Marker
               key={index}
               position={{lat: place.lat, lng: place.lng}}
-              onClick={() => setFocusedPlace(place)}
+              onClick={() => {
+                console.log({place})
+                setFocusedPlace(place)
+              }}
             />
           ))}
           {focusedPlace && (
@@ -103,18 +106,22 @@ export default function PinReelMap() {
               position={{lat: focusedPlace.lat, lng: focusedPlace.lng}}
               onCloseClick={() => setFocusedPlace(null)}
             >
-              <div>
+              <>
                 <h4>{focusedPlace.name}</h4>
                 <ul>
                   {focusedPlace.reels.map((reel: string, index: number) => (
                     <li key={index}>
                       <a href={reel} target="_blank" rel="noopener noreferrer">
-                        View Reel {index + 1}
+                        <img
+                          src={focusedPlace.images[index]}
+                          className="w-full md:w-50 aspect-square object-cover rounded"
+                          alt={`Reel ${index + 1}`}
+                        />
                       </a>
                     </li>
                   ))}
                 </ul>
-              </div>
+              </>
             </InfoWindow>
           )}
           {userLocation && (
