@@ -50,6 +50,17 @@ export default function PinReelMap() {
     }
   };
 
+  const openMaps = (focusedPlace: Place) => {
+
+    // if ((navigator.platform.indexOf('iPhone') != -1) || (navigator.platform.indexOf('iPad') != -1) || (navigator.platform.indexOf('iPod') != -1)){
+    //   // iOS device - open Apple Maps
+    //   window.open('http://maps.apple.com/?q=' + encodedAddress);
+    // } else {
+    //   // Other devices - open Google Maps
+    //   window.open('https://maps.google.com/maps?q=' + encodedAddress);
+    // }
+  }
+
   const addDistancesToPlaces = ({lat, lng}: { lat: number, lng: number }) => {
     const getDistance = (lat1: number, lon1: number, lat2: number, lon2: number) => {
       const toRad = (x: number) => x * Math.PI / 180;
@@ -104,7 +115,10 @@ export default function PinReelMap() {
               onCloseClick={() => setFocusedPlace(null)}
             >
               <>
-                <h4>{focusedPlace.name}</h4>
+                <h1
+                  className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
+                  {focusedPlace.name}
+                </h1>
                 <ul>
                   {focusedPlace.reels.map((reel: string, index: number) => (
                     <li key={index}>
@@ -118,6 +132,14 @@ export default function PinReelMap() {
                     </li>
                   ))}
                 </ul>
+                <a className="inline-flex mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" target={"_blank"} href={`https://www.google.com/maps/search/?api=1&query=${focusedPlace.lat},${focusedPlace.lng}`}>
+                  Open Maps
+                  <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                       fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                          d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                  </svg>
+                </a>
               </>
             </InfoWindow>
           )}
