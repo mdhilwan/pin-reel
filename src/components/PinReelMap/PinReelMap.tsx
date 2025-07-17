@@ -150,7 +150,7 @@ export default function PinReelMap() {
           📍 Locate Me
         </button>
         <button
-          className="bg-white px-3 py-2 ms-2 border border-gray-300 rounded cursor-pointer md:hidden"
+          className="bg-white px-3 py-2 ms-2 border border-gray-300 rounded cursor-pointer hidden"
         >
           🗺️ View Map
         </button>
