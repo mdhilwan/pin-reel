@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+body, html {
+    height: 100vh;
+    overflow: hidden;
+    touch-action: pan-y;
+}
+
 .swiper {
     .swiper-button-prev, .swiper-button-next {
         background: rgba(255, 255, 255, 0.8);
