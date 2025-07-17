@@ -386,5 +386,29 @@
     "images": [
       "/images/06ddd26b-cb9c-45a4-8450-b56d5086db3a.jpg"
     ]
+  },
+  {
+    "name": "Qamaria Yemeni Coffee Co.",
+    "igProfile": "https://www.instagram.com/qamariacoffee/",
+    "reels": [
+      "https://www.instagram.com/reel/CpNmbsouv4_/"
+    ],
+    "lat": 41.85955329999999,
+    "lng": -88.0151733,
+    "images": [
+      "/images/f40bebce-7e67-426c-bf05-a0c8477a73d2.jpg"
+    ]
+  },
+  {
+    "name": "Seoul Bites",
+    "igProfile": "https://www.instagram.com/seoulbitesusa/",
+    "reels": [
+      "https://www.instagram.com/reel/DLHzAtTAhhD/"
+    ],
+    "lat": 41.85865039999999,
+    "lng": -88.0033208,
+    "images": [
+      "/images/d0a132dc-42f9-47af-87d9-0cdc01231c37.jpg"
+    ]
   }
 ]
