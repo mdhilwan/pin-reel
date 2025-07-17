@@ -95,10 +95,7 @@ export default function PinReelMap() {
             <Marker
               key={index}
               position={{lat: place.lat, lng: place.lng}}
-              onClick={() => {
-                console.log({place})
-                setFocusedPlace(place)
-              }}
+              onClick={() => setFocusedPlace(place)}
             />
           ))}
           {focusedPlace && (
@@ -128,7 +125,7 @@ export default function PinReelMap() {
             <Marker
               position={userLocation}
               icon={{
-                url: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+                url: './assets/dot.png',
               }}
             />
           )}
