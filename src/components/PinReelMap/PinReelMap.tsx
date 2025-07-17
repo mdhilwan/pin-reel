@@ -50,17 +50,6 @@ export default function PinReelMap() {
     }
   };
 
-  const openMaps = (focusedPlace: Place) => {
-
-    // if ((navigator.platform.indexOf('iPhone') != -1) || (navigator.platform.indexOf('iPad') != -1) || (navigator.platform.indexOf('iPod') != -1)){
-    //   // iOS device - open Apple Maps
-    //   window.open('http://maps.apple.com/?q=' + encodedAddress);
-    // } else {
-    //   // Other devices - open Google Maps
-    //   window.open('https://maps.google.com/maps?q=' + encodedAddress);
-    // }
-  }
-
   const addDistancesToPlaces = ({lat, lng}: { lat: number, lng: number }) => {
     const getDistance = (lat1: number, lon1: number, lat2: number, lon2: number) => {
       const toRad = (x: number) => x * Math.PI / 180;
