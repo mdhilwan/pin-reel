@@ -37,7 +37,7 @@ export default function PlaceButton({place}: PlaceButtonProps) {
             <img
               src={imgSrc}
               alt={`${place.name} image ${i + 1}`}
-              className={`w-full h-120 object-cover rounded transition-opacity duration-300 ${isActive ? 'opacity-100' : 'opacity-60'}`}
+              className={`w-full h-60 lg:h-120 object-cover rounded transition-opacity duration-300 ${isActive ? 'opacity-100' : 'opacity-60'}`}
             />
           )}
         </SwiperSlide>
