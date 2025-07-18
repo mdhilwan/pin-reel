@@ -410,5 +410,41 @@
     "images": [
       "/images/d0a132dc-42f9-47af-87d9-0cdc01231c37.jpg"
     ]
+  },
+  {
+    "name": "ANJIR UZBEK HALAL CUISINE",
+    "igProfile": "https://www.instagram.com/anjir.halal.restaurant/",
+    "reels": [
+      "https://www.instagram.com/reel/DBOnkmFJKWG/"
+    ],
+    "lat": 41.8356648,
+    "lng": -88.0176541,
+    "images": [
+      "/images/fe18b415-3a0b-4b41-9474-7758bf2e2c1d.jpg"
+    ]
+  },
+  {
+    "name": "TeaTime AnyTime",
+    "igProfile": "https://www.instagram.com/teatimelombard/",
+    "reels": [
+      "https://www.instagram.com/reel/DB_7Qh3uet7/"
+    ],
+    "lat": 41.8607267,
+    "lng": -88.0083731,
+    "images": [
+      "/images/1ac0c682-457a-42bf-893a-d0076be99372.jpg"
+    ]
+  },
+  {
+    "name": "DUA italian restaurant",
+    "igProfile": "https://www.instagram.com/dua.prime.italian.cuisine",
+    "reels": [
+      "https://www.instagram.com/reel/DIkggcisqYY/?hl=en"
+    ],
+    "lat": 41.986303,
+    "lng": -87.8345812,
+    "images": [
+      "/images/285f0b96-2ba4-4aaf-907b-f4e880d5c9d8.jpg"
+    ]
   }
 ]
