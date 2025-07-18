@@ -446,5 +446,77 @@
     "images": [
       "/images/285f0b96-2ba4-4aaf-907b-f4e880d5c9d8.jpg"
     ]
+  },
+  {
+    "name": "Krispy Krunchy Chicken",
+    "igProfile": "https://www.instagram.com/krispykrunchychicken/",
+    "reels": [
+      "https://www.instagram.com/reel/DKtLiT_gqRC/"
+    ],
+    "lat": 38.67249169999999,
+    "lng": -90.6555547,
+    "images": [
+      "/images/728376e0-6ff2-4d48-92bc-d01c75471146.jpg"
+    ]
+  },
+  {
+    "name": "Afandi Kitchen",
+    "igProfile": "https://www.instagram.com/afandikitchen",
+    "reels": [
+      "https://www.instagram.com/reel/DKhmLo5gri2/?hl=en"
+    ],
+    "lat": 38.66899129999999,
+    "lng": -90.6081861,
+    "images": [
+      "/images/58665494-9a61-4cab-97ec-417bba281d54.jpg"
+    ]
+  },
+  {
+    "name": "TOUS les JOURS",
+    "igProfile": "https://www.instagram.com/touslesjoursusa",
+    "reels": [
+      "https://www.instagram.com/reel/DLz1_1_J9D6/?hl=en"
+    ],
+    "lat": 38.65641859999999,
+    "lng": -90.3080035,
+    "images": [
+      "/images/1765a7b0-1dde-41b0-8fc2-2973ea6bfe22.jpg"
+    ]
+  },
+  {
+    "name": "Ehsani Hotkabob",
+    "igProfile": "https://www.instagram.com/ehsanis.hotkabob",
+    "reels": [
+      "https://www.instagram.com/reel/C79zmweOvBH/?hl=en"
+    ],
+    "lat": 38.584343,
+    "lng": -90.26364099999999,
+    "images": [
+      "/images/8d6b6970-f7b8-4f15-88b9-ef2057110804.jpg"
+    ]
+  },
+  {
+    "name": "Poke Munch (Creve Coeur)",
+    "igProfile": "https://www.instagram.com/pokemunchstl",
+    "reels": [
+      "https://www.instagram.com/reel/DHJTveCOnfR/?hl=en"
+    ],
+    "lat": 38.66736059999999,
+    "lng": -90.4430122,
+    "images": [
+      "/images/491f8d66-bf62-481a-8395-87e8fc14b429.jpg"
+    ]
+  },
+  {
+    "name": "Poke Munch (CWE)",
+    "igProfile": "https://www.instagram.com/pokemunchstl",
+    "reels": [
+      "https://www.instagram.com/reel/DHJTveCOnfR/?hl=en"
+    ],
+    "lat": 38.636060,
+    "lng": -90.241915,
+    "images": [
+      "/images/491f8d66-bf62-481a-8395-87e8fc14b429.jpg"
+    ]
   }
 ]
