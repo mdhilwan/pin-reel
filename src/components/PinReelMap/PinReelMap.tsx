@@ -130,7 +130,7 @@ export default function PinReelMap() {
                         <a href={reel} target="_blank" rel="noopener noreferrer">
                           <img
                             src={focusedPlace.images[index]}
-                            className="w-full aspect-square object-cover rounded"
+                            className={`w-full aspect-square object-cover rounded ${isActive ? 'opacity-100' : 'opacity-60'}`}
                             alt={`Reel ${index + 1}`}
                           />
                         </a>
