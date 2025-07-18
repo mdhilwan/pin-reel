@@ -554,5 +554,17 @@
     "images": [
       "/images/c740a6ac-c67b-4943-a220-61c948d7597c.jpg"
     ]
+  },
+  {
+    "name": "Melt n Dip",
+    "igProfile": "https://www.instagram.com/meltndip.stl/",
+    "reels": [
+      "https://www.instagram.com/reel/DL0fFMtSSBO/"
+    ],
+    "lat": 38.5933059,
+    "lng": -90.5705392,
+    "images": [
+      "/images/6b99e3eb-1941-4f8d-9906-8849f3152e86.jpg"
+    ]
   }
 ]
