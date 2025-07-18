@@ -513,10 +513,46 @@
     "reels": [
       "https://www.instagram.com/reel/DHJTveCOnfR/?hl=en"
     ],
-    "lat": 38.636060,
+    "lat": 38.63606,
     "lng": -90.241915,
     "images": [
       "/images/491f8d66-bf62-481a-8395-87e8fc14b429.jpg"
+    ]
+  },
+  {
+    "name": "Golden Pancake Restaurant",
+    "igProfile": "https://www.instagram.com/goldenpancakerestaurant/",
+    "reels": [
+      "https://www.instagram.com/p/DIPAlYZu_ex/"
+    ],
+    "lat": 38.7351839,
+    "lng": -90.3572659,
+    "images": [
+      "/images/78e46bb0-d67d-45d7-ab61-5205573932d6.jpg"
+    ]
+  },
+  {
+    "name": "Honest Kitchen",
+    "igProfile": "https://www.instagram.com/honestsaintlouis/",
+    "reels": [
+      "https://www.instagram.com/reel/DFECgW1Sl43/"
+    ],
+    "lat": 38.7922775,
+    "lng": -90.6178463,
+    "images": [
+      "/images/79826555-3508-453c-b537-c211b1b527dc.jpg"
+    ]
+  },
+  {
+    "name": "Fitzs Root Beer",
+    "igProfile": "https://www.instagram.com/fitzsrootbeer/?hl=en",
+    "reels": [
+      "https://www.instagram.com/reel/DDN2G51Tk2U/?hl=en"
+    ],
+    "lat": 38.6562321,
+    "lng": -90.3055629,
+    "images": [
+      "/images/c740a6ac-c67b-4943-a220-61c948d7597c.jpg"
     ]
   }
 ]
