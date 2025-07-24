@@ -511,8 +511,8 @@
     ]
   },
   {
-    "name": "TOUS les JOURS",
-    "pinurl": "tous-les-jours",
+    "name": "TOUS les JOURS (Delmar, STL)",
+    "pinurl": "tous-les-jours-delmar-stl",
     "igProfile": "https://www.instagram.com/touslesjoursusa",
     "reels": [
       "https://www.instagram.com/reel/DLz1_1_J9D6/?hl=en"
@@ -612,6 +612,32 @@
     "lng": -90.5705392,
     "images": [
       "/images/6b99e3eb-1941-4f8d-9906-8849f3152e86.jpg"
+    ]
+  },
+  {
+    "name": "TOUS les JOURS (Lombard, IL)",
+    "pinurl": "tous-les-jours-lombard-il",
+    "igProfile": "https://www.instagram.com/touslesjoursusa",
+    "reels": [
+      "https://www.instagram.com/reel/DLz1_1_J9D6/?hl=en"
+    ],
+    "lat": 41.836607,
+    "lng": -88.012754,
+    "images": [
+      "/images/9fb5313a-6bb7-4d70-9446-cd4dd99284f1.jpg"
+    ]
+  },
+  {
+    "name": "Chazui Tea Tower",
+    "pinurl": "chazui-tea-tower",
+    "igProfile": "https://www.instagram.com/chazui_chicago",
+    "reels": [
+      "https://www.instagram.com/reel/DLkxeUUuuhq"
+    ],
+    "lat": 41.9430725,
+    "lng": -87.6530403,
+    "images": [
+      "/images/be59ebdd-6952-400c-bde0-2c0d1509152a.jpg"
     ]
   }
 ]
