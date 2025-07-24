@@ -11,10 +11,10 @@ interface PlaceButtonProps {
 }
 
 export default function PlaceButton({place}: PlaceButtonProps) {
-  const {setFocusedPlace} = useMapContext();
+  const {setPinurl} = useMapContext();
 
   return <button
-    onClick={() => setFocusedPlace(place)}
+    onClick={() => setPinurl(place.pinurl)}
     className="text-left w-full cursor-pointer"
   >
     <Swiper

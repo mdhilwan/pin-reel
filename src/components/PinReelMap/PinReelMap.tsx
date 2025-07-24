@@ -1,16 +1,19 @@
 "use client"
 
 import {GoogleMap, LoadScript, Marker, InfoWindow} from '@react-google-maps/api';
-import {useEffect, useRef, useState} from 'react';
+import {Key, useEffect, useRef, useState} from 'react';
 import useMapContext from "@/components/Context/MapContext";
 import {Place} from "@/types/place";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Navigation, Pagination} from "swiper/modules";
+import {useRouter, useParams} from 'next/navigation';
 
 const defaultCenter = {lat: 20, lng: 0};
 
 export default function PinReelMap() {
-  const {placesData, setPlacesData, focusedPlace, setFocusedPlace} = useMapContext();
+  const router = useRouter();
+  const {slug} = useParams();
+  const {setPinurl, pinurl, placesData, setPlacesData, focusedPlace, setFocusedPlace} = useMapContext();
   const [userLocation, setUserLocation] = useState<null | { lat: number; lng: number }>(null);
   const [location, setLocation] = useState<null | { lat: number; lng: number }>(null);
   const mapRef = useRef<google.maps.Map | null>(null);
@@ -21,6 +24,7 @@ export default function PinReelMap() {
 
   useEffect(() => {
     if (focusedPlace) {
+      console.log({focusedPlace})
       const coords = {
         lat: focusedPlace.lat,
         lng: focusedPlace.lng,
@@ -81,6 +85,15 @@ export default function PinReelMap() {
   }, [userLocation]);
 
   useEffect(() => {
+    if (pinurl && slug !== pinurl) {
+      router.push(`/pin/${pinurl}`, { scroll: false })
+    } else if (slug && placesData.length > 0) {
+      const place = placesData.find(place => place.pinurl === slug) || null
+      setFocusedPlace(place)
+    }
+  }, [pinurl, slug, placesData]);
+
+  useEffect(() => {
     locateMe()
   }, []);
 
@@ -93,11 +106,11 @@ export default function PinReelMap() {
           zoom={userLocation ? 12 : 2}
           onLoad={handleLoad}
         >
-          {placesData.map((place, index) => (
+          {placesData.map((place: Place, index: Key | null | undefined) => (
             <Marker
               key={index}
               position={{lat: place.lat, lng: place.lng}}
-              onClick={() => setFocusedPlace(place)}
+              onClick={() => setPinurl(place.pinurl)}
             />
           ))}
           {focusedPlace && (
@@ -171,7 +184,7 @@ export default function PinReelMap() {
             <Marker
               position={userLocation}
               icon={{
-                url: './assets/dot.png',
+                url: '/assets/dot.png',
               }}
             />
           )}

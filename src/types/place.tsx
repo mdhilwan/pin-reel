@@ -5,4 +5,5 @@ export type Place = {
   distance?: number;
   images: string[]
   reels: string[];
+  pinurl: string;
 };

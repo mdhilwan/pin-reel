@@ -5,11 +5,15 @@ import {createContext, useContext, useState} from 'react';
 import {Place} from "@/types/place";
 
 const MapContext = createContext<{
+  pinurl: string | null | undefined;
+  setPinurl: (pinurl: string) => void;
   focusedPlace: Place | null | undefined;
   setFocusedPlace: (place: Place | null) => void;
   placesData: Place[];
   setPlacesData: (places: Place[]) => void;
 }>({
+  pinurl: null,
+  setPinurl: () => {},
   focusedPlace: null,
   setFocusedPlace: () => {},
   placesData: [],
@@ -19,9 +23,10 @@ const MapContext = createContext<{
 export const MapProvider = ({children}: { children: React.ReactNode }) => {
   const [focusedPlace, setFocusedPlace] = useState<Place | null>(null);
   const [placesData, setPlacesData] = useState<Place[]>(places);
+  const [pinurl, setPinurl] = useState<string>("");
 
   return (
-    <MapContext.Provider value={{focusedPlace, setFocusedPlace, placesData, setPlacesData}}>
+    <MapContext.Provider value={{pinurl, setPinurl, focusedPlace, setFocusedPlace, placesData, setPlacesData}}>
       {children}
     </MapContext.Provider>
   );
