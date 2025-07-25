@@ -78,7 +78,6 @@ export default function PinInfoWindow() {
                     text: `Check out this place: ${focusedPlace.name}`,
                     url: window.location.href,
                   }).catch(err => {
-                    // Optional: silently fail or log
                     console.log('Share failed:', err);
                   });
                 } else {
