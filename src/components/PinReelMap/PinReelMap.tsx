@@ -112,6 +112,9 @@ export default function PinReelMap() {
           center={location || userLocation || defaultCenter}
           zoom={getZoom()}
           onLoad={handleLoad}
+          options={{
+            gestureHandling: "greedy",
+          }}
         >
           {placesData.map((place: Place, index: Key | null | undefined) => (
             <Marker
