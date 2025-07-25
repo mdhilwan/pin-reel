@@ -11,7 +11,7 @@ export default function PinInfoWindow() {
         position={{lat: focusedPlace.lat, lng: focusedPlace.lng}}
         onCloseClick={() => setFocusedPlace(null)}
       >
-        <>
+        <div className="ps-1.5 pb-1.5">
           <h1
             className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 max-w-48 overflow text-ellipsis">
             {focusedPlace.name}
@@ -95,7 +95,7 @@ export default function PinInfoWindow() {
               <span className="hidden lg:inline">Share</span>
             </a>
           </div>
-        </>
+        </div>
       </InfoWindow>
     )}</>
 }
