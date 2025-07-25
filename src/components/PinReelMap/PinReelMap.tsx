@@ -114,6 +114,10 @@ export default function PinReelMap() {
           onLoad={handleLoad}
           options={{
             gestureHandling: "greedy",
+            mapTypeControl: false,
+            fullscreenControl: false,
+            streetViewControl: false,
+            cameraControl: false
           }}
         >
           {placesData.map((place: Place, index: Key | null | undefined) => (
