@@ -59,6 +59,7 @@ export async function POST(req: NextRequest) {
   // Create new entry
   const newPlace = {
     name: profileName,
+    pinurl: profileName.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '-'),
     igProfile: profileUrl,
     reels: [reelUrl],
     lat,
