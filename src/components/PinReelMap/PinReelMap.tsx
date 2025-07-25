@@ -24,7 +24,6 @@ export default function PinReelMap() {
 
   useEffect(() => {
     if (focusedPlace) {
-      console.log({focusedPlace})
       const coords = {
         lat: focusedPlace.lat,
         lng: focusedPlace.lng,
@@ -97,13 +96,22 @@ export default function PinReelMap() {
     locateMe()
   }, []);
 
+  const getZoom = () => {
+    if (slug) {
+      return 16
+    } else if (userLocation) {
+      return 12
+    }
+    return 2
+  }
+
   return (
     <div className="w-full md:w-1/2">
       <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!}>
         <GoogleMap
           mapContainerStyle={{width: '100%', height: '100%'}}
           center={location || userLocation || defaultCenter}
-          zoom={userLocation ? 12 : 2}
+          zoom={getZoom()}
           onLoad={handleLoad}
         >
           {placesData.map((place: Place, index: Key | null | undefined) => (
